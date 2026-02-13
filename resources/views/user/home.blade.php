@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>WaterLand - Water Park Website Template</title>
+        <title>Kitebeach - Water Park Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>WaterLand</h1>
+                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>KiteBeach</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -86,16 +86,20 @@
         <!-- Carousel Start -->
         <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
-                <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                <video class="img-fluid w-100" autoplay muted loop playsinline>
+    <source src="img/vid.mp4" type="video/mp4">
+    
+</video>
+
                 <div class="carousel-caption">
                     <div class="container align-items-center py-4">
                         <div class="row g-5 align-items-center">
                             <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;">
                                 <div class="text-start">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To WaterLand</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">The Biggest Theme & Amusement Park</h1>
-                                    <p class="mb-4 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
-                                    </p>
+                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To KiteBeach</h4>
+                                    <h1 class="display-4 text-uppercase text-white mb-4">Beach park and restaurant</h1>
+                                    <p class="mb-4 fs-5">A place where the sea kisses the shore
+and joy sits down beside you.
                                     <div class="d-flex flex-shrink-0">
                                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Our Packages</a>
                                     </div>
@@ -103,7 +107,7 @@
                             </div>
                             <div class="col-xl-5 fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
                                 <div class="ticket-form p-5">
-                                    <h2 class="text-dark text-uppercase mb-4">book your ticket</h2>
+                                    <h2 class="text-dark text-uppercase mb-4">book your Events</h2>
                                     <form>
                                         <div class="row g-4">
                                             <div class="col-12">
@@ -141,16 +145,19 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                 <video class="img-fluid w-100" autoplay muted loop playsinline>
+    <source src="img/vid2.mp4" type="video/mp4">
+    
+</video>
                 <div class="carousel-caption">
                     <div class="container py-4">
                         <div class="row g-5 align-items-center">
                             <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;">
                                 <div class="text-start">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To WaterLand</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">The Greatest Water and Amusement Park</h1>
-                                    <p class="mb-4 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
-                                    </p>
+                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To KiteBeach</h4>
+                                    <h1 class="display-4 text-uppercase text-white mb-4">Beach park and restaurant</h1>
+                                    <p class="mb-4 fs-5">A place where the sea kisses the shore
+and joy sits down beside you.
                                     <div class="d-flex flex-shrink-0">
                                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Our Packages</a>
                                     </div>
@@ -205,12 +212,12 @@
                 <div class="row g-4">
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item">
-                            <img src="img/feature-1.jpg" class="img-fluid rounded w-100" alt="Image">
+                            <img src="img/feature-1.jpeg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">Best Pools</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
-                                    </p>
+                                    <h4 class="text-white">👨‍👩‍👧‍👦 Moments That Matter</h4>
+                                                            
+                                    <p class="text-white">At our beachside space, it’s not just about food — it’s about the time you share. Feel the soft sea breeze, hear the gentle waves, and watch the sunset while laughing with the people who mean the most.
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
@@ -219,11 +226,11 @@
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item">
-                            <img src="img/feature-2.jpg" class="img-fluid rounded w-100" alt="Image">
+                            <img src="img/ph1.jpeg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">Waterslides</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                    <h4 class="text-white">🌅 Together by the Shore</h4>
+                                    <p class="text-white">Whether it’s family bonding, friendly catch-ups, or simply escaping busy days, our beach offers the perfect setting to slow down and enjoy life’s simple joys — good company, good views, and good vibes.
                                     </p>
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
@@ -233,12 +240,11 @@
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item">
-                            <img src="img/feature-3.jpg" class="img-fluid rounded w-100" alt="Image">
+                            <img src="img/ph3.jpeg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">River Rides</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
-                                    </p>
+                                    <h4 class="text-white">🤍 Where Memories Are Made</h4>
+                                    <p class="text-white">Children playing near the shore, friends sharing stories over snacks, families dining with the ocean as their backdrop — every visit becomes a memory you’ll want to relive again and again.
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
@@ -256,17 +262,16 @@
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div>
-                            <h4 class="text-primary">About Waterland</h4>
-                            <h1 class="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eligendi illum inventore maiores incidunt vero id. Est ipsam, distinctio veritatis earum inventore ab fugit officiis ut ullam, laudantium facere sapiente?
-                            </p>
+                            <h4 class="text-primary">About Kitebeach</h4>
+                            <h1 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavors and unforgettable experiences.</h1>
+                            <p class="mb-5">We offer a peaceful seaside atmosphere, friendly service, and delightful food to make every event truly memorable.
                             <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="d-flex">
                                         <div class="me-3"><i class="fas fa-glass-cheers fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Food & Drinks</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>At Kite Beach, great views come with great flavors. Enjoy delicious food and refreshing drinks while relaxing beside the sea breeze.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -275,7 +280,7 @@
                                         <div class="me-3"><i class="fas fa-dot-circle fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Many Attractions</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>A safe and cheerful space where children can laugh, run, and enjoy playful moments while parents relax nearby.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -284,16 +289,16 @@
                                         <div class="me-3"><i class="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
                                         <div>
                                             <h4>Affordable Price</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <p>Spend quality time together, celebrate special occasions, or simply relax — all within your budget.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="d-flex">
-                                        <div class="me-3"><i class="fas fa-lock fa-3x text-primary"></i></div>
+                                        <div class="me-3"><i class="fas fa-users fa-3x text-primary"></i></i></div>
                                         <div>
-                                            <h4>Safety Lockers</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <h4>Perfect for All Ages</h4>
+                                            <p>Whether you're here to play, eat, or simply relax, Kite Beach offers something special for every member of the family.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +311,7 @@
                                 <div class="row g-0">
                                     <div class="col-lg-12">
                                         <div class="rounded mb-4">
-                                            <img src="img/about.jpg" class="img-fluid rounded w-100" alt="">
+                                            <img src="img/ph4.jpeg" class="img-fluid rounded w-100" alt="">
                                         </div>
                                         <div class="row gx-4 gy-0">
                                             <div class="col-6">
@@ -337,9 +342,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center" style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%);">
-                                <h3 class="mb-0 text-white">20 Years Experiance</h3>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -353,8 +356,8 @@
             <div class="container service-section py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Service</h4>
-                    <h1 class="display-5 text-white mb-4">Explore Waterland Park service</h1>
-                    <p class="mb-0 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <h1 class="display-5 text-white mb-4">Explore Kitebeach Park service</h1>
+                    <p class="mb-0 text-white">Enjoy a perfect blend of fun, food, and relaxation at Kite Beach Park. Whether you're here for adventure, family time, or a peaceful escape by the sea, we have something for everyone.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -374,8 +377,14 @@
                                 <div class="mb-4">
                                     <i class="fas fa-home fa-4x"></i>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Private Gazebo</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
+                               <a href="#" class="h4 d-inline-block mb-2">🏝 Bamboo Hut Experience</a>
+<p class="text-muted mb-2">Cozy | Private | Traditional Beach Feel</p>
+
+<p class="mb-1">👥 Up to 40 Guests</p>
+<p class="mb-1">⏳ 2 Hours</p>
+<p class="mb-1">💰 ₹2,500 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
+
                                 </p>
                             </div>
                         </div>
@@ -384,11 +393,16 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-utensils fa-4x"></i>
+                                    <i class="fas fa-gifts fa-4x"></i>
+
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Delicious Food</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">🎤  Open Stage Celebration</a>
+                                <p class="text-muted mb-2">Spacious | Open | Group Events</p>
+
+<p class="mb-1">👥 Up to 100 Guests</p>
+
+<p class="mb-1">💰 ₹4000 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
                             </div>
                         </div>
                     </div>
@@ -396,11 +410,16 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-door-closed fa-4x"></i>
+                                    <i class="fas fa-music fa-4x"></i>
+
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Safety Lockers</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">🌅 Beach Side Celebration – Open Stage</a>
+                                  <p class="text-muted mb-2">Waves & Sunset Views</p>
+
+<p class="mb-1">👥 Above 100 Guests</p>
+
+<p class="mb-1">💰 ₹5000 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
                             </div>
                         </div>
                     </div>
@@ -408,11 +427,17 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-swimming-pool fa-4x"></i>
+                                  <i class="fas fa-ring fa-4x"></i>
+
+
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">River Rides</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">👑  Grand Beach Side Celebration</a>
+                               <p class="text-muted mb-2">For Large Gatherings</p>
+
+<p class="mb-1">👥 Above 100 Guests</p>
+
+<p class="mb-1">💰 Rate: Customized for Your Event</p>
+
                             </div>
                         </div>
                     </div>
@@ -428,21 +453,23 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-12 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="packages-item h-100">
-                            <h4 class="text-primary">Ticket Packages</h4>
+                            <h4 class="text-primary"> Packages</h4>
                             <h1 class="display-5 mb-4">Choose The Best Packages For Your Family</h1>
-                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                            <p class="mb-4">At Kite Beach Park, celebrations are not just events — they are curated experiences. Set against the breathtaking backdrop of the ocean, our premium beachside venues are designed for families who seek elegance, comfort, and unforgettable memories.
                             </p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Best Waterpark in the world</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Best Packages For Your Family</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Enjoy Various Kinds of Water Park</p>
-                            <p class="mb-5"><i class="fa fa-check text-primary me-2"></i>Win Up To 3 Free All Day Tickets</p>
-                            <a href="#" class="btn btn-primary rounded-pill py-3 px-5"> Book Now</a>
+                            <p><i class="fa fa-check text-primary me-2"></i>✨ Premium seating arrangements</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>✨ Professional sound & stage setup</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>✨ Professional sound & stage setup</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>✨ Custom-themed décor</p>
+                            <p class="mb-5"><i class="fa fa-check text-primary me-2"></i>✨ Curated catering options</p>
+                            <a href="#" class="btn btn-primary rounded-pill py-3 px-5">Book Now</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="pricing-item bg-dark rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
-                                <h2 class="mb-4 text-primary">Family Packages</h2>
+                               <i class="bi bi-umbrella-fill text-warning"></i> 1. Bamboo Hut Experience
+                               
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
                                 <h2 class="mb-0 text-primary">$260,90<span class="text-body fs-5 fw-normal">/family</span></h2>
                             </div>
@@ -483,7 +510,7 @@
             <div class="container attractions-section py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Attractions</h4>
-                    <h1 class="display-5 text-white mb-4">Explore WaterLand Park Attractions</h1>
+                    <h1 class="display-5 text-white mb-4">Explore Kitebeach Park Attractions</h1>
                     <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -518,9 +545,8 @@
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Gallery</h4>
-                    <h1 class="display-5 mb-4">Captured Moments In Waterland</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+                    <h1 class="display-5 mb-4">Captured Moments In Kitebeach</h1>
+                    <p class="mb-0">Kitebeach is more than just a destination — it’s where families come together, laughter fills the air, and unforgettable memories are made. From joyful family get-togethers to beautiful engagement celebrations, every gathering here feels special and full of life.
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -614,7 +640,7 @@
                                 <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">5 Ways To Enjoy Waterland This Spring Break</a>
+                                <a href="#" class="h4 d-inline-block mb-4">5 Ways To Enjoy Kitebeach This Spring Break</a>
                                 <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
@@ -649,7 +675,7 @@
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Meet Our Team</h4>
-                    <h1 class="display-5 mb-4">Our Waterland Park Dedicated Team Member</h1>
+                    <h1 class="display-5 mb-4">Our Kitebeach Park Dedicated Team Member</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -817,7 +843,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>WaterLand</h4>
+                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
