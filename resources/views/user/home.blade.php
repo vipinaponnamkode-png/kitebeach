@@ -470,6 +470,11 @@ and joy sits down beside you.
                             <div class="pb-4 border-bottom">
                                <i class="bi bi-umbrella-fill text-warning"></i> 1. Bamboo Hut Experience
                                
+
+
+
+
+                               
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
                                 <h2 class="mb-0 text-primary">$260,90<span class="text-body fs-5 fw-normal">/family</span></h2>
                             </div>
