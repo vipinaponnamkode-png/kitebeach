@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>WaterLand - Water Park Website Template</title>
+        <title>Kitebeach - Water Park Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>WaterLand</h1>
+                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -95,101 +95,146 @@
         </div>
         <!-- Header End -->
 
-        <!-- About Start -->
-        <div class="container-fluid about py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div>
-                            <h4 class="text-primary">About Waterland</h4>
-                            <h1 class="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eligendi illum inventore maiores incidunt vero id. Est ipsam, distinctio veritatis earum inventore ab fugit officiis ut ullam, laudantium facere sapiente?
-                            </p>
-                            <div class="row g-4">
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div class="me-3"><i class="fas fa-glass-cheers fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Food & Drinks</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
+<!-- About Start -->
+<div class="container-fluid about py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <!-- Left Content -->
+            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div>
+                    <h4 class="text-primary">About Kitebeach</h4>
+                    <h1 class="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
+
+                    <p class="mb-5">
+                        Kite Beach Park in Hosdurg, Kanhangad, is a beautifully developed coastal attraction designed for memorable family outings. 
+                        Featuring a children's play area, food court, relaxing seating zones, and vibrant evening beach events, 
+                        it offers the perfect blend of fun, comfort, and scenic sunset views.
+                    </p>
+
+                    <div class="row g-4">
+
+                        <!-- Feature 1 -->
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <i class="fas fa-glass-cheers fa-3x text-primary"></i>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div class="me-3"><i class="fas fa-dot-circle fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Many Attractions</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div class="me-3"><i class="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Affordable Price</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="d-flex">
-                                        <div class="me-3"><i class="fas fa-lock fa-3x text-primary"></i></div>
-                                        <div>
-                                            <h4>Safety Lockers</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        </div>
-                                    </div>
+                                <div>
+                                    <h4>Food & Drinks</h4>
+                                    <p>
+                                        Enjoy delicious food and refreshing drinks while relaxing beside the sea breeze.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="position-relative rounded">
-                            <div class="rounded" style="margin-top: 40px;">
-                                <div class="row g-0">
-                                    <div class="col-lg-12">
-                                        <div class="rounded mb-4">
-                                            <img src="img/about.jpg" class="img-fluid rounded w-100" alt="">
-                                        </div>
-                                        <div class="row gx-4 gy-0">
-                                            <div class="col-6">
-                                                <div class="counter-item bg-primary rounded text-center p-4 h-100">
-                                                    <div class="counter-item-icon mx-auto mb-3">
-                                                        <i class="fas fa-thumbs-up fa-3x text-white"></i>
-                                                    </div>
-                                                    <div class="counter-counting mb-3">
-                                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">150</span>
-                                                        <span class="h1 fw-bold text-white">K +</span>
-                                                    </div>
-                                                    <h5 class="text-white mb-0">Happy Visitors</h5>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="counter-item bg-dark rounded text-center p-4 h-100">
-                                                    <div class="counter-item-icon mx-auto mb-3">
-                                                        <i class="fas fa-certificate fa-3x text-white"></i>
-                                                    </div>
-                                                    <div class="counter-counting mb-3">
-                                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
-                                                        <span class="h1 fw-bold text-white"> +</span>
-                                                    </div>
-                                                    <h5 class="text-white mb-0">Awwards Winning</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                        <!-- Feature 2 -->
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <i class="fas fa-dot-circle fa-3x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4>Many Attractions</h4>
+                                    <p>
+                                        A safe and cheerful space where children can laugh, run, and enjoy playful moments.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center" style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%);">
-                                <h3 class="mb-0 text-white">20 Years Experiance</h3>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <i class="fas fa-hand-holding-usd fa-3x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4>Affordable Price</h4>
+                                    <p>
+                                        Spend quality time together, celebrate special occasions, or simply relax — all within your budget.
+                                    </p>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- Feature 4 -->
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <i class="fas fa-lock fa-3x text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4>Perfect for All Ages</h4>
+                                    <p>
+                                        Whether you're here to play, eat, or relax, Kite Beach offers something special for every family member.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+
+            <!-- Right Image Section -->
+            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="position-relative rounded">
+                    <div class="rounded" style="margin-top: 40px;">
+
+                        <div class="rounded mb-4">
+                            <img src="img/about.jpg" class="img-fluid rounded w-100" alt="Kite Beach">
+                        </div>
+
+                        <div class="row gx-4 gy-0">
+
+                            <!-- Counter 1 -->
+                            <div class="col-6">
+                                <div class="counter-item bg-primary rounded text-center p-4 h-100">
+                                    <div class="counter-item-icon mx-auto mb-3">
+                                        <i class="fas fa-thumbs-up fa-3x text-white"></i>
+                                    </div>
+                                    <div class="counter-counting mb-3">
+                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">150</span>
+                                        <span class="h1 fw-bold text-white">K +</span>
+                                    </div>
+                                    <h5 class="text-white mb-0">Happy Visitors</h5>
+                                </div>
+                            </div>
+
+                            <!-- Counter 2 -->
+                            <div class="col-6">
+                                <div class="counter-item bg-dark rounded text-center p-4 h-100">
+                                    <div class="counter-item-icon mx-auto mb-3">
+                                        <i class="fas fa-certificate fa-3x text-white"></i>
+                                    </div>
+                                    <div class="counter-counting mb-3">
+                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
+                                        <span class="h1 fw-bold text-white">+</span>
+                                    </div>
+                                    <h5 class="text-white mb-0">Awards Winning</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Experience Badge -->
+                    <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
+                         style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%);">
+                        <h3 class="mb-0 text-white">20 Years Experience</h3>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
+    </div>
+</div>
+<!-- About End -->
+
+
         <!-- About End -->
 
         <!-- Feature Start -->
@@ -248,7 +293,7 @@
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Gallery</h4>
-                    <h1 class="display-5 mb-4">Captured Moments In Waterland</h1>
+                    <h1 class="display-5 mb-4">Captured Moments In Kitebeach</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -311,7 +356,7 @@
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Meet Our Team</h4>
-                    <h1 class="display-5 mb-4">Our Waterland Park Dedicated Team Member</h1>
+                    <h1 class="display-5 mb-4">Our Kitebeach Park Dedicated Team Member</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -397,7 +442,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>WaterLand</h4>
+                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>

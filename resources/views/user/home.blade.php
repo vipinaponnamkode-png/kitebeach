@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>KiteBeach</h1>
+                    <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -468,38 +468,56 @@ and joy sits down beside you.
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="pricing-item bg-dark rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
-                               <i class="bi bi-umbrella-fill text-warning"></i> 1. Bamboo Hut Experience
+
+
+                              <h2 style="color:white;"> <i class="bi bi-umbrella-fill text-warning"></i> Bamboo Hut Experience</h2>
                                
-
-
-
-
+                                <p class="mb-4">Kite Beach Park is one of the most loved beach event destinations, offering bamboo huts, open stages, and grand beachside celebration spaces.!</p>
                                
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
-                                <h2 class="mb-0 text-primary">$260,90<span class="text-body fs-5 fw-normal">/family</span></h2>
+                                <h2 class="mb-0 text-primary">₹2500<span class="text-body fs-5 fw-normal"></span></h2>
                             </div>
-                            <div class="py-4">
-                                <p class="mb-4"><i class="fa fa-check text-primary me-2"></i>All Access To Waterpark</p>
-                                <p class="mb-4"><i class="fa fa-check text-primary me-2"></i>Get Two Gazebo</p>
-                                <p class="mb-4"><i class="fa fa-check text-primary me-2"></i>Free Soft Drinks</p>
-                                <p class="mb-4"><i class="fa fa-check text-primary me-2"></i>Get Four Lockers</p>
-                                <p class="mb-4"><i class="fa fa-check text-primary me-2"></i>Free Four Towels</p>
-                            </div>
+                           <div class="py-4">
+    <div class="mb-3 d-flex align-items-start">
+        <i class="fa fa-check text-primary me-3 mt-1"></i>
+        <span>Chairs</span>
+    </div>
+
+    <div class="mb-3 d-flex align-items-start">
+        <i class="fa fa-check text-primary me-3 mt-1"></i>
+        <span>Hall Frame Setup</span>
+    </div>
+
+    <div class="mb-3 d-flex align-items-start">
+        <i class="fa fa-check text-primary me-3 mt-1"></i>
+        <span>Sound System</span>
+    </div>
+
+    <div class="mb-3 d-flex align-items-start">
+        <i class="fa fa-check text-primary me-3 mt-1"></i>
+        <span>Customisation Available (Extra Charges Apply)</span>
+    </div>
+
+    <div class="mb-3 d-flex align-items-start">
+        <i class="fa fa-check text-primary me-3 mt-1"></i>
+        <span>Curated Catering Options</span>
+    </div>
+</div>
+
                             <a href="#" class="btn btn-light rounded-pill py-3 px-5"> Book Now</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="pricing-item bg-primary rounded text-center p-5 h-100">
                             <div class="pb-4 border-bottom">
-                                <h2 class="text-dark mb-4">Basic Packages</h2>
-                                <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorum!</p>
-                                <h2 class="text-dark mb-0">$60,90<span class="text-white fs-5 fw-normal">/person</span></h2>
+                                <h2 class="text-dark mb-4">👑 Grand Beach Side Celebration</h2>
+                                <p class="text-white mb-4">Our thoughtfully designed celebration packages blend luxury with flexibility.!</p>
+                                <h2 class="text-dark mb-0">₹5000<span class="text-white fs-5 fw-normal"></span></h2>
                             </div>
                             <div class="text-white py-4">
-                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Get Small Gazebo</p>
-                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Free Soft Drink</p>
-                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Get One Locker</p>
-                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Free Towel</p>
+                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Premium seating arrangements</p>
+                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Professional sound & stage setup</p>
+                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Custom-themed décor</p>
+                                <p class="mb-4"><i class="fa fa-check text-dark me-2"></i>Curated catering options</p>
                             </div>
                             <a href="#" class="btn btn-dark rounded-pill py-3 px-5"> Book Now</a>
                         </div>
@@ -516,7 +534,7 @@ and joy sits down beside you.
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Attractions</h4>
                     <h1 class="display-5 text-white mb-4">Explore Kitebeach Park Attractions</h1>
-                    <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="text-white mb-0">A happy place where families laugh together, children play freely, and beautiful seaside memories are made every day.
                     </p>
                 </div>
                 <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -614,7 +632,7 @@ and joy sits down beside you.
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Blog</h4>
                     <h1 class="display-5 mb-4">Latest Blog & Articles</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Stay Updated with Events, Celebrations & Special Moments at Kite Beach Park.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -624,12 +642,11 @@ and joy sits down beside you.
                                 <a href="#">
                                     <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
-                                <div class="blog-category py-2 px-4">Vacation</div>
                                 <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Why Children Dont Like Getting Out Of The Water</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <a href="#" class="h4 d-inline-block mb-4">🎠 Safe & Fun Play Area</a>
+                                <p class="mb-4">Kids love having a dedicated play space just for them. Our play area allows them to run, laugh, and enjoy exciting activities in a safe and friendly environment while parents relax nearby.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -641,12 +658,12 @@ and joy sits down beside you.
                                 <a href="#">
                                     <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
-                                <div class="blog-category py-2 px-4">Insight</div>
+                                
                                 <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">5 Ways To Enjoy Kitebeach This Spring Break</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <a href="#" class="h4 d-inline-block mb-4">🌅 Vast Coastal Open Space</a>
+                                <p class="mb-4">The wide coastal area gives children the freedom to explore, play games, build sand creations, and enjoy the fresh sea breeze. Open spaces make them feel adventurous and energetic.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -658,12 +675,12 @@ and joy sits down beside you.
                                 <a href="#">
                                     <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
-                                <div class="blog-category py-2 px-4">Insight</div>
+                               
                                 <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">3 Tips for Your Family Spring Break at Amusement Park</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <a href="#" class="h4 d-inline-block mb-4">👨‍👩‍👧‍👦 Perfect for Family Time</a>
+                                <p class="mb-4">The sound of waves, soft sand under their feet, and beautiful sunsets create a magical outdoor experience that children naturally enjoy.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -681,16 +698,14 @@ and joy sits down beside you.
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Meet Our Team</h4>
                     <h1 class="display-5 mb-4">Our Kitebeach Park Dedicated Team Member</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
+                    <p class="mb-0">Behind every joyful celebration and memorable beachside experience is a team that truly cares. Our dedicated staff works with passion, professionalism, and attention to detail to ensure every guest feels welcomed and valued.<
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item p-4">
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">David James</h4>
+                                        <h4 class="mb-0">Sanoop Nakulan</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -713,7 +728,7 @@ and joy sits down beside you.
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">William John</h4>
+                                        <h4 class="mb-0">Suresh Babu</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -736,11 +751,34 @@ and joy sits down beside you.
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">Michael John</h4>
+                                        <h4 class="mb-0">Reshma Ravi</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
                                         <img src="img/team-3.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-icon rounded-pill my-4 p-3">
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item p-4">
+                            <div class="team-content">
+                                <div class="d-flex justify-content-between border-bottom pb-4">
+                                    <div class="text-start">
+                                        <h4 class="mb-0">Vipina Chandran</h4>
+                                        <p class="mb-0">Profession</p>
+                                    </div>
+                                    <div>
+                                        <img src="img/team-2.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
                                     </div>
                                 </div>
                                 <div class="team-icon rounded-pill my-4 p-3">
@@ -766,13 +804,12 @@ and joy sits down beside you.
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Testimonials</h4>
                     <h1 class="display-5 text-white mb-4">Our Clients Riviews</h1>
-                    <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="text-white mb-0">Nothing makes us happier than seeing families smile and celebrations turn into beautiful memories. Our guests share their experiences of joyful moments, delicious food, peaceful seaside views, and unforgettable events at Kite Beach Park.
                     </p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
-                        </p>
+                        <p class="text-white fs-4 mb-4">“We celebrated my daughter’s birthday at Kite Beach Park, and it was absolutely wonderful. The play area kept the kids happy, the food was delicious, and the beachside setting made everything feel magical. Highly recommended for family events!”
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
                                 <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
@@ -780,7 +817,7 @@ and joy sits down beside you.
                                 </div>
                             </div>
                             <div class="ms-4">
-                                <h4>Person Name</h4>
+                                <h4>Lilly varghees</h4>
                                 <p class="text-start text-white">Profession</p>
                                 <div class="d-flex text-primary">
                                     <i class="fas fa-star"></i>
@@ -793,7 +830,7 @@ and joy sits down beside you.
                         </div>
                     </div>
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
+                        <p class="text-white fs-4 mb-4">“The sunset celebration setup was beautiful and well organized. The team was very supportive and handled everything smoothly. Our guests loved the seashore seating and the peaceful atmosphere.”
                         </p>
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
@@ -802,7 +839,7 @@ and joy sits down beside you.
                                 </div>
                             </div>
                             <div class="ms-4">
-                                <h4>Person Name</h4>
+                                <h4>Beena Suresh</h4>
                                 <p class="text-start text-white">Profession</p>
                                 <div class="d-flex text-primary">
                                     <i class="fas fa-star"></i>
@@ -815,7 +852,7 @@ and joy sits down beside you.
                         </div>
                     </div>
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
+                        <p class="text-white fs-4 mb-4">“We hosted our engagement celebration here, and it was beyond our expectations. The decoration, sound system, and overall coordination were excellent. Truly a memorable experience!”
                         </p>
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
@@ -824,7 +861,7 @@ and joy sits down beside you.
                                 </div>
                             </div>
                             <div class="ms-4">
-                                <h4>Person Name</h4>
+                                <h4>Jemshid Usman</h4>
                                 <p class="text-start text-white">Profession</p>
                                 <div class="d-flex text-primary">
                                     <i class="fas fa-star"></i>
@@ -848,13 +885,13 @@ and joy sits down beside you.
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 70px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">123 Street New York.USA</p>
+                                <p class="text-white mb-0">Hosdurg beach, Kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
@@ -862,7 +899,7 @@ and joy sits down beside you.
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                                <p class="text-white mb-0">9947066222</p>
                             </div>
                         </div>
                     </div>
@@ -894,15 +931,15 @@ and joy sits down beside you.
                             <div class="opening-date mb-3 pb-3">
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 11:00 AM - 16:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>3:PM - 12:00 PM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 12:00 PM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 12:00 PM</p>
                                 </div>
                             </div>
                             <div>
