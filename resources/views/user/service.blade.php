@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
+                   <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -101,7 +101,8 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Service</h4>
                     <h1 class="display-5 text-white mb-4">Explore Kitebeach Park service</h1>
-                    <p class="mb-0 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0 text-white">Enjoy a perfect blend of fun, food, and relaxation at Kite Beach Park. Whether you're here for adventure, family time, or a peaceful escape by the sea, we have something for everyone.
+                    </p>
                     </p>
                 </div>
                 <div class="row g-4">
@@ -121,9 +122,13 @@
                                 <div class="mb-4">
                                     <i class="fas fa-home fa-4x"></i>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Private Gazebo</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">🏝 Bamboo Hut Experience</a>
+                                <p class="text-muted mb-2">Cozy | Private | Traditional Beach Feel</p>
+
+<p class="mb-1">👥 Up to 40 Guests</p>
+<p class="mb-1">⏳ 2 Hours</p>
+<p class="mb-1">💰 ₹2,500 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
                             </div>
                         </div>
                     </div>
@@ -131,11 +136,16 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-utensils fa-4x"></i>
+                                    <i class="fas fa-gifts fa-4x"></i>
+
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Delicious Food</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">🎤  Open Stage Celebration</a>
+                                <p class="text-muted mb-2">Spacious | Open | Group Events</p>
+
+<p class="mb-1">👥 Up to 100 Guests</p>
+
+<p class="mb-1">💰 ₹4000 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
                             </div>
                         </div>
                     </div>
@@ -143,11 +153,16 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-door-closed fa-4x"></i>
+                                    <i class="fas fa-music fa-4x"></i>
+
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Safety Lockers</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">🌅 Beach Side Celebration – Open Stage<</a>
+                                 <p class="text-muted mb-2">Waves & Sunset Views</p>
+
+<p class="mb-1">👥 Above 100 Guests</p>
+
+<p class="mb-1">💰 ₹5000 (Without Food)</p>
+<p class="mb-0">🍽 Food: Negotiable</p>
                             </div>
                         </div>
                     </div>
@@ -155,11 +170,15 @@
                         <div class="service-item p-4">
                             <div class="service-content">
                                 <div class="mb-4">
-                                    <i class="fas fa-swimming-pool fa-4x"></i>
+                                    <i class="fas fa-ring fa-4x"></i>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">River Rides</a>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae numquam.
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-3">👑  Grand Beach Side Celebration</a>
+                               <p class="text-muted mb-2">For Large Gatherings</p>
+
+<p class="mb-1">👥 Above 100 Guests</p>
+
+<p class="mb-1">💰 Rate: Customized for Your Event</p>
+
                             </div>
                         </div>
                     </div>
@@ -177,8 +196,8 @@
                             <img src="img/feature-1.jpg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">Best Pools</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                    <h4 class="text-white">🍽 CHARCOL Restaurant</h4>
+                                    <p class="text-white">Experience rich flavors and coastal vibes at CHARCOL Restaurant, where delicious grilled specialties and fresh dishes are served with warmth and elegance. A perfect place to relax, dine, and enjoy quality time with family by the beach.
                                     </p>
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
@@ -191,8 +210,8 @@
                             <img src="img/feature-2.jpg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">Waterslides</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
+                                    <h4 class="text-white">🍵 Tea Shop</h4>
+                                    <p class="text-white">Take a refreshing break at our cozy Tea Shop. Enjoy hot tea, light snacks, and peaceful seaside moments that make every sip special.
                                     </p>
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
@@ -205,9 +224,9 @@
                             <img src="img/feature-3.jpg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">River Rides</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
-                                    </p>
+                                    <h4 class="text-white">🥤 Juice Shop</h4>
+                                    <p class="text-white">Cool down with freshly prepared juices and refreshing drinks. Our Juice Shop offers vibrant flavors that perfectly match the breezy beach atmosphere.
+                                    </p> 
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
@@ -225,13 +244,12 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Testimonials</h4>
                     <h1 class="display-5 text-white mb-4">Our Clients Riviews</h1>
-                    <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="text-white mb-0">Nothing makes us happier than seeing families smile and celebrations turn into beautiful memories. Our guests share their experiences of joyful moments, delicious food, peaceful seaside views, and unforgettable events at Kite Beach Park.
                     </p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
-                        </p>
+                        <p class="text-white fs-4 mb-4">“We celebrated my daughter’s birthday at Kite Beach Park, and it was absolutely wonderful. The play area kept the kids happy, the food was delicious, and the beachside setting made everything feel magical. Highly recommended for family events!”
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
                                 <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
@@ -252,7 +270,8 @@
                         </div>
                     </div>
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
+                        <p class="text-white fs-4 mb-4">“The sunset celebration setup was beautiful and well organized. The team was very supportive and handled everything smoothly. Our guests loved the seashore seating and the peaceful atmosphere.”
+                        </p>
                         </p>
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
@@ -274,7 +293,8 @@
                         </div>
                     </div>
                     <div class="testimonial-item p-4">
-                        <p class="text-white fs-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
+                        <p class="text-white fs-4 mb-4">“We hosted our engagement celebration here, and it was beyond our expectations. The decoration, sound system, and overall coordination were excellent. Truly a memorable experience!”
+                        </p>
                         </p>
                         <div class="testimonial-inner">
                             <div class="testimonial-img">
@@ -307,7 +327,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>

@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
+                   <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -104,7 +104,7 @@
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div>
                     <h4 class="text-primary">About Kitebeach</h4>
-                    <h1 class="display-5 mb-4">The Best Theme & Amusement Park For Your Family</h1>
+                    <h1 class="display-5 mb-4">Your Perfect Coastal Getaway</h1>
 
                     <p class="mb-5">
                         Kite Beach Park in Hosdurg, Kanhangad, is a beautifully developed coastal attraction designed for memorable family outings. 
@@ -243,12 +243,11 @@
                 <div class="row g-4">
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item">
-                            <img src="img/feature-1.jpg" class="img-fluid rounded w-100" alt="Image">
+                            <img src="img/sc2.jpeg" class="img-fluid rounded w-100" alt="Image">
                             <div class="feature-content p-4">
                                 <div class="feature-content-inner">
-                                    <h4 class="text-white">Best Pools</h4>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro soluta voluptatum laborum mollitia blanditiis suscipit,
-                                    </p>
+                                    <h4 class="text-white">Welcome to Kite Beach Park</h4>
+                                    <p class="text-white">The park was set up on 25 cents of land at a cost of Rs 1.25 crore. The land, which was under the control of the Revenue Department, was handed over to the Tourism Department.
                                     <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
@@ -294,7 +293,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Gallery</h4>
                     <h1 class="display-5 mb-4">Captured Moments In Kitebeach</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Kitebeach is more than just a destination — it’s where families come together, laughter fills the air, and unforgettable memories are made. From joyful family get-togethers to beautiful engagement celebrations, every gathering here feels special and full of life.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -357,7 +356,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Meet Our Team</h4>
                     <h1 class="display-5 mb-4">Our Kitebeach Park Dedicated Team Member</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Behind every joyful celebration and memorable beachside experience is a team that truly cares. Our dedicated staff works with passion, professionalism, and attention to detail to ensure every guest feels welcomed and valued.
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
@@ -366,7 +365,7 @@
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">David James</h4>
+                                        <h4 class="mb-0">Sanoop Nakulan</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -389,7 +388,7 @@
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">William John</h4>
+                                        <h4 class="mb-0">Suresh Babu C.V</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -412,7 +411,30 @@
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">Michael John</h4>
+                                        <h4 class="mb-0">Reshma Ravi</h4>
+                                        <p class="mb-0">Profession</p>
+                                    </div>
+                                    <div>
+                                        <img src="img/team-3.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                </div>
+                                <div class="team-icon rounded-pill my-4 p-3">
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <p class="text-center mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam eveniet itaque provident sequi deserunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item p-4">
+                            <div class="team-content">
+                                <div class="d-flex justify-content-between border-bottom pb-4">
+                                    <div class="text-start">
+                                        <h4 class="mb-0">Vipina Chandran</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -442,13 +464,13 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"></h4><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">123 Street New York.USA</p>
+                                <p class="text-white mb-0">Hosdurg beach, Kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
@@ -456,7 +478,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                                <p class="text-white mb-0">9947066222</p>
                             </div>
                         </div>
                     </div>
@@ -488,15 +510,15 @@
                             <div class="opening-date mb-3 pb-3">
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 11:00 AM - 16:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 03:00 PM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                             </div>
                             <div>

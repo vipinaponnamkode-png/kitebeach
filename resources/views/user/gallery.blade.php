@@ -44,15 +44,22 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
+                   <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a>
+                     <div class="navbar-nav mx-auto py-0">
+                        <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                        <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                        <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                        <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a>
                                 <a href="{{ route('gallery') }}" class="dropdown-item">Our Gallery</a>
                                 <a href="{{ route('attraction')}}" class="dropdown-item">Attractions</a>
                                 <a href="{{ route('package') }}" class="dropdown-item">Ticket Packages</a>
@@ -158,7 +165,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>

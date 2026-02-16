@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
+                   <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -104,7 +104,7 @@
                         <div>
                             <div class="pb-5">
                                 <h4 class="text-primary">Get in Touch</h4>
-                                <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                                <p class="mb-0">Reach out to us and let’s make your visit to Kite Beach Park & Restaurant truly unforgettable. We look forward to welcoming you!.</p>
                             </div>
                             <div class="row g-4">
                                 <div class="col-lg-6">
@@ -213,10 +213,7 @@
                     </div>
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="rounded">
-                            <iframe class="rounded w-100" 
-                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124768.46131011249!2d75.02261258906248!3d12.247302995546153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba47df809ac00f1%3A0x85ce12047b160544!2sKite%20Beach%20Park!5e0!3m2!1sen!2sin!4v1771230094840!5m2!1sen!2sin" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -230,13 +227,13 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">123 Street New York.USA</p>
+                                <p class="text-white mb-0">Hosdurg Beach</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
@@ -244,7 +241,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                                <p class="text-white mb-0">9947066222</p>
                             </div>
                         </div>
                     </div>
@@ -276,15 +273,15 @@
                             <div class="opening-date mb-3 pb-3">
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 11:00 AM - 16:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 03:00 PM-03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                             </div>
                             <div>

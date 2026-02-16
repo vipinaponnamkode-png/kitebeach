@@ -44,7 +44,7 @@
         <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-6 text-dark"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h1>
+                    <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -100,7 +100,8 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Blog</h4>
                     <h1 class="display-5 mb-4">Latest Blog & Articles</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Stay Updated with Events, Celebrations & Special Moments at Kite Beach Park.
+                    </p>
                     </p>
                 </div>
                 <div class="row g-4">
@@ -111,12 +112,11 @@
                                     <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
                                 <div class="blog-category py-2 px-4">Vacation</div>
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i></div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Why Children Dont Like Getting Out Of The Water</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
-                                </p>
+                                <a href="#" class="h4 d-inline-block mb-4">🎠 Safe & Fun Play Area</a>
+                                <p class="mb-4">Kids love having a dedicated play space just for them. Our play area allows them to run, laugh, and enjoy exciting activities in a safe and friendly environment while parents relax nearby.
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -128,11 +128,11 @@
                                     <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
                                 <div class="blog-category py-2 px-4">Insight</div>
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i></div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">5 Ways To Enjoy Kitebeach This Spring Break</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <a href="#" class="h4 d-inline-block mb-4">🌅 Vast Coastal Open Space</a>
+                                <p class="mb-4">The wide coastal area gives children the freedom to explore, play games, build sand creations, and enjoy the fresh sea breeze. Open spaces make them feel adventurous and energetic.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -148,8 +148,8 @@
                                 <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
                             </div>
                             <div class="blog-content p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">3 Tips for Your Family Spring Break at Amusement Park</a>
-                                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
+                                <a href="#" class="h4 d-inline-block mb-4">👨‍👩‍👧‍👦 Perfect for Family Time</a>
+                                <p class="mb-4">The sound of waves, soft sand under their feet, and beautiful sunsets create a magical outdoor experience that children naturally enjoy.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
@@ -167,7 +167,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>

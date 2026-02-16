@@ -122,9 +122,9 @@ and joy sits down beside you.
                                             <div class="col-12">
                                                 <select class="form-select border-0 py-2" aria-label="Default select example">
                                                     <option selected>Select Packages</option>
-                                                    <option value="1">Family Packages</option>
-                                                    <option value="2">Basic Packages</option>
-                                                    <option value="3">Premium Packages</option>
+                                                    <option value="1">Bamboo Hut Celebration</option>
+                                                    <option value="2">Open stage Celebration</option>
+                                                    <option value="3">Beach side Grant Celebration</option>
                                                 </select>
                                             </div>
                                             <div class="col-12">
@@ -180,9 +180,9 @@ and joy sits down beside you.
                                             <div class="col-12">
                                                 <select class="form-select border-0 py-2" aria-label="Default select example">
                                                     <option selected>Select Packages</option>
-                                                    <option value="1">Family Packages</option>
-                                                    <option value="2">Basic Packages</option>
-                                                    <option value="3">Premium Packages</option>
+                                                    <option value="1">Bamboo Hut Celebration</option>
+                                                    <option value="2">Open stage Celebration</option>
+                                                    <option value="3">Beach side Grant Celebration</option>
                                                 </select>
                                             </div>
                                             <div class="col-12">
@@ -263,7 +263,7 @@ and joy sits down beside you.
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div>
                             <h4 class="text-primary">About Kitebeach</h4>
-                            <h1 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavors and unforgettable experiences.</h1>
+                            <h1 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavours and unforgettable experiences.</h1>
                             <p class="mb-5">We offer a peaceful seaside atmosphere, friendly service, and delightful food to make every event truly memorable.
                             <div class="row g-4">
                                 <div class="col-md-6">
@@ -364,9 +364,9 @@ and joy sits down beside you.
                     <div class="col-0 col-md-1 col-lg-2 col-xl-2"></div>
                     <div class="col-md-10 col-lg-8 col-xl-8 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-days p-4">
-                            <div class="py-2 border-bottom border-top d-flex align-items-center justify-content-between flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Monday - Friday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>11:00 AM - 16:00 PM</p></div>
-                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Saturday - Sunday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 17:00 PM</p></div>
-                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0">Holiday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 17:00 PM</p></div>
+                            <div class="py-2 border-bottom border-top d-flex align-items-center justify-content-between flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Monday - Friday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>03:00 PM - 03:00 AM</p></div>
+                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Saturday - Sunday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 03:00 AM</p></div>
+                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0">Holiday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 03:00 AM</p></div>
                         </div>
                     </div>
                     <div class="col-0 col-md-1 col-lg-2 col-xl-2"></div>
@@ -659,7 +659,7 @@ and joy sits down beside you.
                                     <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
                                 </a>
                                 
-                                <div class="blog-date"><i class="fas fa-clock me-2"></i>August 19, 2025</div>
+                                <div class="blog-date"><i class="fas fa-clock me-2"></i></div>
                             </div>
                             <div class="blog-content p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">🌅 Vast Coastal Open Space</a>
@@ -698,7 +698,7 @@ and joy sits down beside you.
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Meet Our Team</h4>
                     <h1 class="display-5 mb-4">Our Kitebeach Park Dedicated Team Member</h1>
-                    <p class="mb-0">Behind every joyful celebration and memorable beachside experience is a team that truly cares. Our dedicated staff works with passion, professionalism, and attention to detail to ensure every guest feels welcomed and valued.<
+                    <p class="mb-0">Behind every joyful celebration and memorable beachside experience is a team that truly cares. Our dedicated staff works with passion, professionalism, and attention to detail to ensure every guest feels welcomed and valued.
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item p-4">
@@ -728,7 +728,7 @@ and joy sits down beside you.
                             <div class="team-content">
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
-                                        <h4 class="mb-0">Suresh Babu</h4>
+                                        <h4 class="mb-0">Suresh Babu C.V</h4>
                                         <p class="mb-0">Profession</p>
                                     </div>
                                     <div>
@@ -885,7 +885,7 @@ and joy sits down beside you.
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 70px;"></i>Kitebeach</h4>
+                                <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
@@ -931,15 +931,15 @@ and joy sits down beside you.
                             <div class="opening-date mb-3 pb-3">
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>3:PM - 12:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>03:PM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 12:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 12:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                             </div>
                             <div>
