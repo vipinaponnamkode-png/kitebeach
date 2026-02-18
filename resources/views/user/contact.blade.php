@@ -56,11 +56,12 @@
                         <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                         <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
                         <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
+                        <a href="{{ route('attraction')}}" class="nav-item nav-link">Attractions</a>
                         
-                        <div class="nav-item dropdown">
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
-                                <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a>
+                            <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a> 
                                 <a href="{{ route('gallery') }}" class="dropdown-item">Our Gallery</a>
                                 <a href="{{ route('attraction')}}" class="dropdown-item">Attractions</a>
                                 <a href="{{ route('package') }}" class="dropdown-item">Ticket Packages</a>
@@ -68,7 +69,7 @@
                                 <a href="{{ route('testimonial')}}" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="team-icon d-none d-xl-flex justify-content-center me-3">
@@ -114,7 +115,9 @@
                                         </div>
                                         <div>
                                             <h4>Address</h4>
-                                            <p class="mb-0">123 Street New York.USA</p>
+                                            <p class="mb-0">Hosdurg beach</p>
+                                            <p class="mb-0">Kanhangad</p>
+                                            <p class="mb-0">671315</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +139,7 @@
                                         </div>
                                         <div>
                                             <h4>Telephone</h4>
-                                            <p class="mb-0">(+012) 3456 7890</p>
+                                            <p class="mb-0">9947066222</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +150,7 @@
                                         </div>
                                         <div>
                                             <h4>Yoursite@ex.com</h4>
-                                            <p class="mb-0">(+012) 3456 7890</p>
+                                            <p class="mb-0">9947066333</p>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +252,7 @@
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>

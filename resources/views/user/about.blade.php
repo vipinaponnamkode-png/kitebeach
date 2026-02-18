@@ -56,7 +56,8 @@
                         <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                         <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
                         <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
-                        <div class="nav-item dropdown">
+                        <a href="{{ route('attraction')}}" class="nav-item nav-link">Attractions</a>
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a>
@@ -67,7 +68,7 @@
                                 <a href="{{ route('testimonial')}}" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="team-icon d-none d-xl-flex justify-content-center me-3">
@@ -486,9 +487,9 @@
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>

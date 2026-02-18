@@ -55,7 +55,8 @@
                         <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                         <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
                         <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
-                        <div class="nav-item dropdown">
+                         <a href="{{ route('attraction')}}" class="nav-item nav-link">Attractions</a>
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="{{ route('feature') }}" class="dropdown-item">Our Feature</a>
@@ -66,7 +67,7 @@
                                 <a href="{{ route('testimonial')}}" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="team-icon d-none d-xl-flex justify-content-center me-3">
@@ -100,7 +101,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Attractions</h4>
                     <h1 class="display-5 text-white mb-4">Explore Kitebeach Park Attractions</h1>
-                    <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="text-white mb-0">This seaside park is a relaxing beach-front destination known for its casual beach vibes and outdoor leisure atmosphere. It’s popular locally for seaside walks, chill hangouts, small celebrations, and breezy sunsets by the water.
                     </p>
                 </div>
                 <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -142,7 +143,7 @@
                             <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">123 Street New York.USA</p>
+                                <p class="text-white mb-0">Hosdurg beach, Kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
@@ -150,7 +151,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                                <p class="text-white mb-0">9947066222</p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +159,7 @@
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
