@@ -337,6 +337,7 @@
                                 <p class="text-white mb-0">Hosdurg beach, kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
+                                
                                 <i class="fas fa-envelope text-primary me-3"></i>
                                 <p class="text-white mb-0">info@example.com</p>
                             </div>

@@ -20,4 +20,5 @@ Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimon
 Route::get('/404',[UserController::class,'404'])->name('404');
 Route::get('/contact',[UserController::class,'contact'])->name('contact');
 Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimonial');
+
 require __DIR__.'/auth.php';
