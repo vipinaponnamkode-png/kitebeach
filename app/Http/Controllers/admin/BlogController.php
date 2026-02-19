@@ -1,19 +1,22 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Blog;
 
 class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        //
-    }
+   public function index()
+{
+    $blogs = Blog::latest()->paginate(10);
+
+    return view('admin.blogs.index', compact('blogs'));
+}
+
 
     /**
      * Show the form for creating a new resource.
