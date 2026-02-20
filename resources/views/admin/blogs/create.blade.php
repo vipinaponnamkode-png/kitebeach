@@ -43,9 +43,10 @@
 
             <div class="form-group full-width">
                 <label>Description *</label>
-                <textarea name="description" 
-                          rows="5" 
-                          required>{{ old('description') }}</textarea>
+               <textarea name="content" 
+          class="form-control" 
+          rows="5" 
+          required>{{ old('content') }}</textarea>
             </div>
 
             <div class="form-group full-width">

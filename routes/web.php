@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserContactController;
+use App\Http\Controllers\BookingController;
 
 
 
@@ -18,7 +20,10 @@ Route::get('/package',[UserController::class,'package'])->name('package');
 Route::get('/team',[UserController::class,'team'])->name('team');
 Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimonial');
 Route::get('/404',[UserController::class,'404'])->name('404');
-Route::get('/contact',[UserController::class,'contact'])->name('contact');
+Route::resource('contact',UserContactController::class);
 Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimonial');
+
+Route::post('/book-event', [BookingController::class, 'store'])
+    ->name('booking.store');
 
 require __DIR__.'/auth.php';

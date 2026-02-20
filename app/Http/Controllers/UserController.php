@@ -33,7 +33,7 @@ class UserController extends Controller
 
     public function error404() { return view('user.404'); }
 
-    public function contact() { return view('user.contact'); }
+    // public function contact() { return view('user.contact'); }
 
 
 }

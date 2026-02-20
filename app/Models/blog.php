@@ -9,31 +9,24 @@ class Blog extends Model
 {
     use HasFactory;
 
-    /**
-     * Mass assignable attributes
-     */
     protected $fillable = [
         'title',
+        'content',   // ✅ corrected
         'category',
-        'description',
         'image',
+        // 'is_active',
     ];
 
-    /**
-     * Attribute casting
-     */
     protected $casts = [
+        // 'is_active'  => 'boolean',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
     ];
 
-    /**
-     * Accessor: Get Full Image URL
-     */
     public function getImageUrlAttribute(): ?string
     {
         return $this->image
             ? asset('storage/' . $this->image)
             : null;
     }
-}
+} 

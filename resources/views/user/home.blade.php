@@ -71,7 +71,7 @@
                             <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
-                    <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
+                    <a href="{{ route('contact.index') }}" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="team-icon d-none d-xl-flex justify-content-center me-3">
                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -113,13 +113,13 @@
                                 <form>
                                     <div class="row g-4">
                                         <div class="col-12">
-                                            <input type="text" class="form-control border-0 py-2" id="name" placeholder="Your Name">
+                                            <input type="text" class="form-control border-0 py-2" id="name" placeholder="Your Name" required>
                                         </div>
                                         <div class="col-12 col-xl-6">
-                                            <input type="email" class="form-control border-0 py-2" id="email" placeholder="Your Email">
+                                            <input type="email" class="form-control border-0 py-2" id="email" placeholder="Your Email" required>
                                         </div>
                                         <div class="col-12 col-xl-6">
-                                            <input type="phone" class="form-control border-0 py-2" id="phone" placeholder="Phone">
+                                            <input type="tel" class="form-control border-0 py-2" id="phone" placeholder="Phone" required>
                                         </div>
                                         <div class="col-12">
                                             <select class="form-select border-0 py-2" aria-label="Default select example">

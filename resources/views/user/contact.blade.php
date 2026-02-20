@@ -70,7 +70,7 @@
                                 <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
+                        <a href="{{ route('contact.index') }}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="team-icon d-none d-xl-flex justify-content-center me-3">
                         <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -168,41 +168,42 @@
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="bg-light p-5 rounded h-100">
                             <h4 class="text-primary mb-4">Send Your Message</h4>
-                            <form>
-                                <div class="row g-4">
+                                <form action="{{ route('contact.store') }}" method="POST">
+                                @csrf                               
+                                 <div class="row g-4">
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                            <input type="text" class="form-control border-0" id="name" name="name"   placeholder="Your Name">
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                            <input type="email" class="form-control border-0" id="email" name="email" placeholder="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
-                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                            <input type="tel" class="form-control border-0" id="phone" name="phone" placeholder="Phone">
                                             <label for="phone">Your Phone</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
-                                            <label for="project">Your Project</label>
+                                            <input type="text" class="form-control border-0" id="event" name="event" placeholder="Event">
+                                            <label for="event">Your Event</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                                            <input type="text" class="form-control border-0" id="subject" name="subject" placeholder="Subject">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" name="message" style="height: 160px"></textarea>
                                             <label for="message">Message</label>
                                         </div>
 

@@ -21,11 +21,12 @@ Route::prefix('admin')->name('admin.')->group(function () {
          Route::resource('service', ServiceController::class);
         Route::resource('attractions', AttractionController::class);
         Route::resource('blogs', BlogController::class);
-
-        Route::get('contacts', [ContactController::class, 'index'])
-        ->name('contacts.index'); 
-        
-    });
+        Route::resource('contacts', ContactController::class)
+         ->only(['index', 'show', 'destroy']);
+         Route::post('contacts/{contact}/reply', 
+        [ContactController::class, 'reply']
+            )->name('contacts.reply');
+        });
 
    
 });
