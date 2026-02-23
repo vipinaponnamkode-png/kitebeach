@@ -33,7 +33,7 @@
             <h3>Contact Messages</h3>
         </div>
     </a>
-     <a href="{{ route('admin.contacts.index') }}" class="card-link">
+     <a href="{{ route('admin.bookings.index') }}" class="card-link">
         <div class="card">
             <i class="fa-solid fa-calendar-check" style="font-size: 50px; color: #ffcc00;"></i>
             <h3>Event Booking</h3>

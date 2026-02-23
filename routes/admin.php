@@ -15,6 +15,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('/dashboard', function () {
             return view('admin.dashboard');
         })->name('dashboard');
+        Route::resource('bookings', \App\Http\Controllers\Admin\BookingController::class)
+    ->only(['index', 'show', 'destroy']);
         
         Route::post('/logout', [LoginController::class, 'logout'])->name('logout'); 
 
@@ -26,7 +28,17 @@ Route::prefix('admin')->name('admin.')->group(function () {
          Route::post('contacts/{contact}/reply', 
         [ContactController::class, 'reply']
             )->name('contacts.reply');
+
+
+Route::post('bookings/{booking}/reply',
+    [\App\Http\Controllers\Admin\BookingController::class, 'reply']
+)->name('bookings.reply');
+
+
         });
+
+
+
 
    
 });

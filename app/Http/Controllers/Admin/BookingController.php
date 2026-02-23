@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Booking;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 
 class BookingController extends Controller
 {
@@ -27,4 +30,22 @@ class BookingController extends Controller
             ->route('admin.bookings.index')
             ->with('success', 'Booking deleted successfully.');
     }
+
+            public function reply(Request $request, Booking $booking)
+{
+    $request->validate([
+        'message' => 'required|string',
+    ]);
+
+    Mail::raw($request->message, function ($mail) use ($booking) {
+        $mail->to($booking->email)
+             ->subject('Regarding Your Event Booking');
+    });
+
+    return redirect()
+        ->route('admin.bookings.show', $booking)
+        ->with('success', 'Reply sent successfully!');
 }
+
+
+    }

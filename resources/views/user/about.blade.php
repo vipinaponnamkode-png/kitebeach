@@ -185,7 +185,7 @@
                     <div class="rounded" style="margin-top: 40px;">
 
                         <div class="rounded mb-4">
-                            <img src="img/about.jpg" class="img-fluid rounded w-100" alt="Kite Beach">
+                            <img src="img/sc1.jpeg" class="img-fluid rounded w-100" alt="Kite Beach">
                         </div>
 
                         <div class="row gx-4 gy-0">
@@ -214,7 +214,7 @@
                                         <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
                                         <span class="h1 fw-bold text-white">+</span>
                                     </div>
-                                    <h5 class="text-white mb-0">Awards Winning</h5>
+                                    <h5 class="text-white mb-0">Events</h5>
                                 </div>
                             </div>
 
@@ -223,8 +223,8 @@
 
                     <!-- Experience Badge -->
                     <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
-                         style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%);">
-                        <h3 class="mb-0 text-white">20 Years Experience</h3>
+                         style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffcc00, #6699ff);">
+                        <h3 class="mb-0 text-white"> KiteBeach Park </h3>
                     </div>
 
                 </div>
@@ -233,7 +233,7 @@
         </div>
     </div>
 </div>
-<!-- About End -->
+
 
 
         <!-- About End -->
@@ -468,14 +468,14 @@
                                 <h4 class="text-white mb-4"></h4><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
-                            <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                            <p class="mb-2">“Sun, sand, smiles — that’s KiteBeach life.”......</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
                                 <p class="text-white mb-0">Hosdurg beach, Kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">info@example.com</p>
+                                <p class="text-white mb-0">Kitebeachpark@gmail.com</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
@@ -494,7 +494,7 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
@@ -504,7 +504,7 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Opening Hours</h4>
@@ -534,21 +534,21 @@
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
+        <!-- <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        /*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                        <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  -->
         <!-- Copyright End -->
 
 

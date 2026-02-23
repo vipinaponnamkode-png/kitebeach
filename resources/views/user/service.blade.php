@@ -110,9 +110,9 @@
                     <div class="col-0 col-md-1 col-lg-2 col-xl-2"></div>
                     <div class="col-md-10 col-lg-8 col-xl-8 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-days p-4">
-                            <div class="py-2 border-bottom border-top d-flex align-items-center justify-content-between flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Monday - Friday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>11:00 AM - 16:00 PM</p></div>
-                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Saturday - Sunday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 17:00 PM</p></div>
-                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0">Holiday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 17:00 PM</p></div>
+                            <div class="py-2 border-bottom border-top d-flex align-items-center justify-content-between flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Monday - Friday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>03:00 PM - 03:00 AM</p></div>
+                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0 pb-2 pb-sm-0">Saturday - Sunday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 03:00 AM</p></div>
+                            <div class="py-2 border-bottom d-flex align-items-center justify-content-between flex-shrink-1 flex-wrap"><h4 class="mb-0">Holiday</h4> <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i>09:00 AM - 03:00 AM  </p></div>
                         </div>
                     </div>
                     <div class="col-0 col-md-1 col-lg-2 col-xl-2"></div>
@@ -331,7 +331,7 @@
                                 <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
-                            <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                            <p class="mb-2">“Sun, sand, smiles — that’s KiteBeach life.”......</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
                                 <p class="text-white mb-0">Hosdurg beach, kanhangad</p>
@@ -339,7 +339,7 @@
                             <div class="d-flex align-items-center">
                                 
                                 <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">info@example.com</p>
+                                <p class="text-white mb-0">Kitebeachpark@gmail.com</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
@@ -358,7 +358,7 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
@@ -368,22 +368,22 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Opening Hours</h4>
                             <div class="opening-date mb-3 pb-3">
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Monday - Friday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 11:00 AM - 16:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 03:00 pM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Satur - Sunday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                                 <div class="opening-clock flex-shrink-0">
                                     <h6 class="text-white mb-0 me-auto">Holiday:</h6>
-                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 17:00 PM</p>
+                                    <p class="mb-0"><i class="fas fa-clock text-primary me-2"></i> 09:00 AM - 03:00 AM</p>
                                 </div>
                             </div>
                             <div>
@@ -398,21 +398,21 @@
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
+        <!-- <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
+                    <div class="col-md-6 text-center text-md-end text-body"> -->
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                        <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Copyright End -->
 
 

@@ -134,8 +134,11 @@
                                 Welcome To KiteBeach
                             </h4>
                             <h1 class="display-4 text-uppercase text-white mb-4">
-                                Book Your Event
+                               Beach park and restaurant
                             </h1>
+                            <p class="mb-4 fs-5">
+                                A place where the sea kisses the shore and joy sits down beside you.
+                            </p>
                         </div>
                     </div>
 
@@ -272,9 +275,9 @@
         <div class="container pb-5">
             <div class="row g-5">
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div>
+                    <div><br>
                         <h4 class="text-primary">About Kitebeach</h4>
-                        <h1 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavours and unforgettable experiences.</h1>
+                        <h4 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavours and unforgettable experiences.</h4>
                         <p class="mb-5">We offer a peaceful seaside atmosphere, friendly service, and delightful food to make every event truly memorable.
                         <div class="row g-4">
                             <div class="col-md-6">
@@ -315,7 +318,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><br>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="position-relative rounded">
                         <div class="rounded" style="margin-top: 40px;">
@@ -349,11 +352,18 @@
                                                 <h5 class="text-white mb-0">Awwards Winning</h5>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
+                                
                             </div>
+                            
                         </div>
-
+  <!-- Experience Badge -->
+                        <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
+                            style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffcc00, #6699ff);">
+                            <h3 class="mb-0 text-white"> KiteBeach Park</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -478,7 +488,7 @@
                         <p class="mb-4">At Kite Beach Park, celebrations are not just events — they are curated experiences. Set against the breathtaking backdrop of the ocean, our premium beachside venues are designed for families who seek elegance, comfort, and unforgettable memories.
                         </p>
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Premium seating arrangements</p>
-                        <p><i class="fa fa-check text-primary me-2"></i>✨ Professional sound & stage setup</p>
+                        
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Professional sound & stage setup</p>
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Custom-themed décor</p>
                         <p class="mb-5"><i class="fa fa-check text-primary me-2"></i>✨ Curated catering options</p>
@@ -908,14 +918,14 @@
                                 <h4 class="text-white mb-4"><img src="img/logo.png" alt="Logo" class="me-3" style="width: 50px; height: 50px;"></i>Kitebeach</h4>
                                 <!-- <img src="img/logo.png" alt="Logo"> -->
                             </a>
-                            <p class="mb-2">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                            <p class="mb-2">“Sun, sand, smiles — that’s KiteBeach life.”...</p>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
                                 <p class="text-white mb-0">Hosdurg beach, Kanhangad</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">info@example.com</p>
+                                <p class="text-white mb-0">Kitebeachpark@gmail.com</p>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
@@ -929,12 +939,12 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
                             <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
+                    <!-- <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
@@ -944,7 +954,7 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Opening Hours</h4>
@@ -974,22 +984,22 @@
         <!-- Footer End -->
 
         <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
+        <!-- <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+             <div class="col-md-6 text-center text-md-end text-body">
+                        /*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
+<!--                        
+                    </div> 
                 </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+            </div> -->
+        <!-- </div> --?
+        Copyright End -->
 
 
         <!-- Back to Top -->
