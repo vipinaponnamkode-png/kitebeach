@@ -133,6 +133,25 @@
         return false;
     });
 
+    $('.header-carousel').owlCarousel({
+    items: 1,
+    loop: false,          // 🔴 Disable loop
+    autoplay: false,      // 🔴 Disable autoplay
+    autoplayTimeout: 5000,
+    smartSpeed: 1000,
+    dots: true,
+    nav: false,
+    mouseDrag: false,     // 🔴 Disable drag while typing
+    touchDrag: false      // 🔴 Disable swipe
+});
+$('.ticket-form input, .ticket-form select').on('focus', function () {
+    $('.header-carousel').trigger('stop.owl.autoplay');
+});
+
+$('.ticket-form input, .ticket-form select').on('blur', function () {
+    $('.header-carousel').trigger('play.owl.autoplay');
+});
+
 
 })(jQuery);
 

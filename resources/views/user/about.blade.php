@@ -69,7 +69,7 @@
                                 <a href="{{ route('404') }}" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="{{ route('contact')}}" class="nav-item nav-link">Contact</a>
+                        <a href="{{ route('contact.index')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="team-icon d-none d-xl-flex justify-content-center me-3">
                         <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>

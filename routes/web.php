@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserContactController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ContactController;
 
 
 
@@ -22,6 +23,8 @@ Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimon
 Route::get('/404',[UserController::class,'404'])->name('404');
 Route::resource('contact',UserContactController::class);
 Route::get('/testimonial',[UserController::class,'testimonial'])->name('testimonial');
+Route::resource('contact', UserContactController::class)
+    ->only(['index', 'store']);
 
 Route::post('/book-event', [BookingController::class, 'store'])
     ->name('booking.store');
