@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Event;
+use App\Models\Food;
+
 
 class UserController extends Controller
 {
@@ -15,7 +18,15 @@ class UserController extends Controller
     {
         return view('user.about'); // loads about.blade.php
     }
-    public function service() { return view('user.service'); }
+   public function service()
+{
+    $events = Event::all();
+
+    return view('user.service', compact('events'));
+    
+    $foods = Food::all();
+    return view('user.service', compact('foods'));
+}
 
     public function blog() { return view('user.blog'); }
 

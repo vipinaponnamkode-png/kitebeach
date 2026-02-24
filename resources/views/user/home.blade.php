@@ -28,6 +28,17 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .glass-box {
+            background: linear-gradient(135deg,
+                    rgba(0, 0, 0, 0.55),
+                    rgba(0, 0, 0, 0.35));
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+    </style>
 </head>
 
 <body>
@@ -43,13 +54,13 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
-                <!-- <img src="img/logo.png" alt="Logo"> -->
+            <a href="/" class="navbar-brand p-0 d-flex align-items-center">
+                <img src="img/logofinal-remove.png" alt="KiteBeach Logo" class="logo" style="width: 150px; height: 150px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
                     <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
@@ -79,144 +90,163 @@
                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0">Get Started</a>
+                <!-- From Uiverse.io by cssbuttons-io -->
+                <button class="c-button c-button--gooey"> Book Your Event
+                    <div class="c-button__blobs">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </button>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+                            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                        </filter>
+                    </defs>
+                </svg>
             </div>
         </nav>
     </div>
     <!-- Navbar & Hero End -->
 
     <!-- Carousel Start -->
-   <div class="header-carousel owl-carousel">
+    <div class="header-carousel owl-carousel">
 
-    <!-- Slide 1 (NO FORM HERE) -->
-    <div class="header-carousel-item">
-        <video class="img-fluid w-100" autoplay muted loop playsinline>
-            <source src="img/vid.mp4" type="video/mp4">
-        </video>
+        <!-- Slide 1 (NO FORM HERE) -->
+        <div class="header-carousel-item">
+            <video class="img-fluid w-100" autoplay muted loop playsinline>
+                <source src="img/vid.mp4" type="video/mp4">
+            </video>
 
-        <div class="carousel-caption">
-            <div class="container align-items-center py-4">
-                <div class="row g-5 align-items-center">
-                    <div class="col-xl-7">
-                        <div class="text-start">
-                            <h4 class="text-primary text-uppercase fw-bold mb-4">
-                                Welcome To KiteBeach
-                            </h4>
-                            <h1 class="display-4 text-uppercase text-white mb-4">
-                                Beach park and restaurant
-                            </h1>
-                            <p class="mb-4 fs-5">
-                                A place where the sea kisses the shore and joy sits down beside you.
-                            </p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">
-                                Our Packages
-                            </a>
+            <div class="carousel-caption">
+                <div class="container py-4">
+                    <div class="row align-items-center">
+                        <div class="col-xl-7">
+                            <div class="glass-box p-5">
+                                <h4 class="text-primary text-uppercase fw-bold mb-4">
+                                    Welcome To KiteBeach
+                                </h4>
+
+                                <h1 class="display-4 text-uppercase text-white mb-4">
+                                    Beach Park And Restaurant
+                                </h1>
+
+                                <p class="mb-4 fs-5 text-white">
+                                    A place where the sea kisses the shore and joy sits down beside you.
+                                </p>
+
+                                <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">
+                                    Our Packages
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Slide 2 (ONLY FORM HERE) -->
-    <div class="header-carousel-item">
-        <video class="img-fluid w-100" autoplay muted loop playsinline>
-            <source src="img/vid2.mp4" type="video/mp4">
-        </video>
+        <!-- Slide 2 (ONLY FORM HERE) -->
+        <div class="header-carousel-item">
+            <video class="img-fluid w-100" autoplay muted loop playsinline>
+                <source src="img/vid2.mp4" type="video/mp4">
+            </video>
 
-        <div class="carousel-caption">
-            <div class="container py-4">
-                <div class="row g-5 align-items-center">
+            <div class="carousel-caption">
+                <div class="container py-4">
+                    <div class="row g-5 align-items-center">
 
-                    <div class="col-xl-7">
-                        <div class="text-start">
-                            <h4 class="text-primary text-uppercase fw-bold mb-4">
-                                Welcome To KiteBeach
-                            </h4>
-                            <h1 class="display-4 text-uppercase text-white mb-4">
-                               Beach park and restaurant
-                            </h1>
-                            <p class="mb-4 fs-5">
-                                A place where the sea kisses the shore and joy sits down beside you.
-                            </p>
+                        <div class="col-xl-7">
+                            <div class="glass-box p-5">
+                                <h4 class="text-primary text-uppercase fw-bold mb-4">
+                                    Welcome To KiteBeach
+                                </h4>
+                                <h1 class="display-4 text-uppercase text-white mb-4">
+                                    Beach park and restaurant
+                                </h1>
+                                <p class="mb-4 fs-5">
+                                    A place where the sea kisses the shore and joy sits down beside you.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-xl-5">
-                        <div class="ticket-form p-5">
-                            <h2 class="text-dark text-uppercase mb-4">
-                                Book Your Event
-                            </h2>
+                        <div class="col-xl-5">
+                            <div class="ticket-form p-5">
+                                <h2 class="text-dark text-uppercase mb-4">
+                                    Book Your Event
+                                </h2>
 
-                            <form action="{{ route('booking.store') }}" method="POST">
-                                @csrf
+                                <form action="{{ route('booking.store') }}" method="POST">
+                                    @csrf
 
-                                <div class="row g-4">
+                                    <div class="row g-4">
 
-                                    <div class="col-12">
-                                        <input type="text" name="name"
-                                               class="form-control border-0 py-2"
-                                               placeholder="Your Name" required>
-                                    </div>
+                                        <div class="col-12">
+                                            <input type="text" name="name"
+                                                class="form-control border-0 py-2"
+                                                placeholder="Your Name" required>
+                                        </div>
 
-                                    <div class="col-12 col-xl-6">
-                                        <input type="email" name="email"
-                                               class="form-control border-0 py-2"
-                                               placeholder="Your Email" required>
-                                    </div>
+                                        <div class="col-12 col-xl-6">
+                                            <input type="email" name="email"
+                                                class="form-control border-0 py-2"
+                                                placeholder="Your Email" required>
+                                        </div>
 
-                                    <div class="col-12 col-xl-6">
-                                        <input type="tel" name="phone"
-                                               class="form-control border-0 py-2"
-                                               placeholder="Phone" required>
-                                    </div>
+                                        <div class="col-12 col-xl-6">
+                                            <input type="tel" name="phone"
+                                                class="form-control border-0 py-2"
+                                                placeholder="Phone" required>
+                                        </div>
 
-                                    <div class="col-12">
-                                        <select name="package"
+                                        <div class="col-12">
+                                            <select name="package"
                                                 class="form-select border-0 py-2" required>
-                                            <option value="">Select Package</option>
-                                            <option value="Bamboo Hut Celebration">
-                                                Bamboo Hut Celebration
-                                            </option>
-                                            <option value="Open stage Celebration">
-                                                Open Stage Celebration
-                                            </option>
-                                            <option value="Beach Side Grand Celebration">
-                                                Beach Side Grand Celebration
-                                            </option>
-                                        </select>
-                                    </div>
+                                                <option value="">Select Package</option>
+                                                <option value="Bamboo Hut Celebration">
+                                                    Bamboo Hut Celebration
+                                                </option>
+                                                <option value="Open stage Celebration">
+                                                    Open Stage Celebration
+                                                </option>
+                                                <option value="Beach Side Grand Celebration">
+                                                    Beach Side Grand Celebration
+                                                </option>
+                                            </select>
+                                        </div>
 
-                                    <div class="col-12">
-                                        <input type="date" name="event_date"
-                                               class="form-control border-0 py-2" required>
-                                    </div>
+                                        <div class="col-12">
+                                            <input type="date" name="event_date"
+                                                class="form-control border-0 py-2" required>
+                                        </div>
 
-                                    <div class="col-12">
-                                        <input type="number" name="guests"
-                                               class="form-control border-0 py-2"
-                                               placeholder="Guests" required>
-                                    </div>
+                                        <div class="col-12">
+                                            <input type="number" name="guests"
+                                                class="form-control border-0 py-2"
+                                                placeholder="Guests" required>
+                                        </div>
 
-                                    <div class="col-12">
-                                        <button type="submit"
+                                        <div class="col-12">
+                                            <button type="submit"
                                                 class="btn btn-primary w-100 py-2 px-5">
-                                            Book Now
-                                        </button>
+                                                Book Now
+                                            </button>
+                                        </div>
+
                                     </div>
+                                </form>
 
-                                </div>
-                            </form>
-
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
     <!-- Carousel End -->
 
 
@@ -349,17 +379,19 @@
                                                     <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
                                                     <span class="h1 fw-bold text-white"> +</span>
                                                 </div>
-                                                <h5 class="text-white mb-0">Awwards Winning</h5>
+                                                <h5 class="text-white mb-0">Events
+
+                                                </h5>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
-  <!-- Experience Badge -->
+                        <!-- Experience Badge -->
                         <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
                             style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffcc00, #6699ff);">
                             <h3 class="mb-0 text-white"> KiteBeach Park</h3>
@@ -488,7 +520,7 @@
                         <p class="mb-4">At Kite Beach Park, celebrations are not just events — they are curated experiences. Set against the breathtaking backdrop of the ocean, our premium beachside venues are designed for families who seek elegance, comfort, and unforgettable memories.
                         </p>
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Premium seating arrangements</p>
-                        
+
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Professional sound & stage setup</p>
                         <p><i class="fa fa-check text-primary me-2"></i>✨ Custom-themed décor</p>
                         <p class="mb-5"><i class="fa fa-check text-primary me-2"></i>✨ Curated catering options</p>
@@ -736,7 +768,7 @@
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
                                         <h4 class="mb-0">Sanoop Nakulan</h4>
-                                        <p class="mb-0">Profession</p>
+                                        <p class="mb-0">Director</p>
                                     </div>
                                     <div>
                                         <img src="img/team-1.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
@@ -759,7 +791,7 @@
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
                                         <h4 class="mb-0">Suresh Babu C.V</h4>
-                                        <p class="mb-0">Profession</p>
+                                        <p class="mb-0">Director</p>
                                     </div>
                                     <div>
                                         <img src="img/team-2.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
@@ -782,7 +814,7 @@
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
                                         <h4 class="mb-0">Reshma Ravi</h4>
-                                        <p class="mb-0">Profession</p>
+                                        <p class="mb-0">Managing Director</p>
                                     </div>
                                     <div>
                                         <img src="img/team-3.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
@@ -805,7 +837,7 @@
                                 <div class="d-flex justify-content-between border-bottom pb-4">
                                     <div class="text-start">
                                         <h4 class="mb-0">Vipina Chandran</h4>
-                                        <p class="mb-0">Profession</p>
+                                        <p class="mb-0">CEO</p>
                                     </div>
                                     <div>
                                         <img src="img/team-2.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
@@ -992,9 +1024,9 @@
                     </div>
              <div class="col-md-6 text-center text-md-end text-body">
                         /*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-<!--                        
+        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+        <!--                        
                     </div> 
                 </div>
             </div> -->
