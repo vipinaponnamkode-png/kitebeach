@@ -16,6 +16,7 @@
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -85,13 +86,16 @@
                     <a href="{{ route('contact.index') }}" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="team-icon d-none d-xl-flex justify-content-center me-3">
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.facebook.com/kitebeachpark/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.threads.com/@kitebeachpark"><i class="fa-brands fa-threads"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.instagram.com/kitebeachpark/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.youtube.com/@kitebeachpark/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <!-- From Uiverse.io by cssbuttons-io -->
-                <button class="c-button c-button--gooey"> Book Your Event
+                <button class="c-button c-button--gooey"
+                    data-bs-toggle="modal"
+                    data-bs-target="#bookingModal">
+                    Book Your Event
                     <div class="c-button__blobs">
                         <div></div>
                         <div></div>
@@ -118,7 +122,7 @@
         <!-- Slide 1 (NO FORM HERE) -->
         <div class="header-carousel-item">
             <video class="img-fluid w-100" autoplay muted loop playsinline>
-                <source src="img/vid.mp4" type="video/mp4">
+                <source src="img/WhatsApp Video 2026-03-05 at 12.37.14 PM.mp4" type="video/mp4">
             </video>
 
             <div class="carousel-caption">
@@ -138,9 +142,9 @@
                                     A place where the sea kisses the shore and joy sits down beside you.
                                 </p>
 
-                                <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">
+                                <!-- <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">
                                     Our Packages
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -151,7 +155,7 @@
         <!-- Slide 2 (ONLY FORM HERE) -->
         <div class="header-carousel-item">
             <video class="img-fluid w-100" autoplay muted loop playsinline>
-                <source src="img/vid2.mp4" type="video/mp4">
+                <source src="img/WhatsApp Video 2026-03-05 at 12.37.53 PM.mp4" type="video/mp4">
             </video>
 
             <div class="carousel-caption">
@@ -169,75 +173,6 @@
                                 <p class="mb-4 fs-5">
                                     A place where the sea kisses the shore and joy sits down beside you.
                                 </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-5">
-                            <div class="ticket-form p-5">
-                                <h2 class="text-dark text-uppercase mb-4">
-                                    Book Your Event
-                                </h2>
-
-                                <form action="{{ route('booking.store') }}" method="POST">
-                                    @csrf
-
-                                    <div class="row g-4">
-
-                                        <div class="col-12">
-                                            <input type="text" name="name"
-                                                class="form-control border-0 py-2"
-                                                placeholder="Your Name" required>
-                                        </div>
-
-                                        <div class="col-12 col-xl-6">
-                                            <input type="email" name="email"
-                                                class="form-control border-0 py-2"
-                                                placeholder="Your Email" required>
-                                        </div>
-
-                                        <div class="col-12 col-xl-6">
-                                            <input type="tel" name="phone"
-                                                class="form-control border-0 py-2"
-                                                placeholder="Phone" required>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <select name="package"
-                                                class="form-select border-0 py-2" required>
-                                                <option value="">Select Package</option>
-                                                <option value="Bamboo Hut Celebration">
-                                                    Bamboo Hut Celebration
-                                                </option>
-                                                <option value="Open stage Celebration">
-                                                    Open Stage Celebration
-                                                </option>
-                                                <option value="Beach Side Grand Celebration">
-                                                    Beach Side Grand Celebration
-                                                </option>
-                                            </select>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <input type="date" name="event_date"
-                                                class="form-control border-0 py-2" required>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <input type="number" name="guests"
-                                                class="form-control border-0 py-2"
-                                                placeholder="Guests" required>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <button type="submit"
-                                                class="btn btn-primary w-100 py-2 px-5">
-                                                Book Now
-                                            </button>
-                                        </div>
-
-                                    </div>
-                                </form>
-
                             </div>
                         </div>
 
@@ -307,99 +242,112 @@
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div><br>
                         <h4 class="text-primary">About Kitebeach</h4>
-                        <h4 class="display-5 mb-4">We bring together the joy of seaside relaxation with delightful flavours and unforgettable experiences.</h4>
-                        <p class="mb-5">We offer a peaceful seaside atmosphere, friendly service, and delightful food to make every event truly memorable.
+
+                        <p class="fs-5 mb-3">
+                            Kite Beach Park in Kanhangad, located at Hosdurg, is a developed coastal destination opened to boost tourism in Kasaragod, featuring a children's playground, food court, seating areas, and restrooms.
+                        </p>
+
+                        <p class="mb-5">
+                            We offer a peaceful seaside atmosphere, friendly service, and delightful food to make every event truly memorable.
+                        </p>
                         <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <div class="me-3"><i class="fas fa-glass-cheers fa-3x text-primary"></i></div>
-                                    <div>
-                                        <h4>Food & Drinks</h4>
-                                        <p>At Kite Beach, great views come with great flavors. Enjoy delicious food and refreshing drinks while relaxing beside the sea breeze.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <div class="me-3"><i class="fas fa-dot-circle fa-3x text-primary"></i></div>
-                                    <div>
-                                        <h4>Many Attractions</h4>
-                                        <p>A safe and cheerful space where children can laugh, run, and enjoy playful moments while parents relax nearby.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <div class="me-3"><i class="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
-                                    <div>
-                                        <h4>Affordable Price</h4>
-                                        <p>Spend quality time together, celebrate special occasions, or simply relax — all within your budget.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <div class="me-3"><i class="fas fa-users fa-3x text-primary"></i></i></div>
-                                    <div>
-                                        <h4>Perfect for All Ages</h4>
-                                        <p>Whether you're here to play, eat, or simply relax, Kite Beach offers something special for every member of the family.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    
+    <div class="col-md-6">
+        <div class="d-flex">
+            <div class="me-3"><i class="fas fa-glass-cheers fa-3x text-primary"></i></div>
+            <div>
+                <h4>Location:</h4>
+                <p>Situated at Hosdurg Beach, Kanhangad, it is easily accessible and offers a clean and well-maintained environment.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="d-flex">
+            <div class="me-3"><i class="fas fa-dot-circle fa-3x text-primary"></i></div>
+            <div>
+                <h4>Many Attractions</h4>
+                <p>A safe and cheerful space where children can laugh, run, and enjoy playful moments. Enjoy delicious food and refreshing drinks beside the sea breeze.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="d-flex">
+            <div class="me-3"><i class="fas fa-hand-holding-usd fa-3x text-primary"></i></div>
+            <div>
+                <h4>Affordable Price</h4>
+                <p>Spend quality time together, celebrate special occasions, or simply relax — all within your budget.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="d-flex">
+            <div class="me-3"><i class="fas fa-users fa-3x text-primary"></i></div>
+            <div>
+                <h4>Development</h4>
+                <p>The project was developed by the District Tourism Promotion Council (DTPC) in collaboration with the District Nirmithi Kendra.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+                
                     </div>
-                </div><br>
-                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="position-relative rounded">
-                        <div class="rounded" style="margin-top: 40px;">
-                            <div class="row g-0">
-                                <div class="col-lg-12">
-                                    <div class="rounded mb-4">
-                                        <img src="img/ph4.jpeg" class="img-fluid rounded w-100" alt="">
-                                    </div>
-                                    <div class="row gx-4 gy-0">
-                                        <div class="col-6">
-                                            <div class="counter-item bg-primary rounded text-center p-4 h-100">
-                                                <div class="counter-item-icon mx-auto mb-3">
-                                                    <i class="fas fa-thumbs-up fa-3x text-white"></i>
-                                                </div>
-                                                <div class="counter-counting mb-3">
-                                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">150</span>
-                                                    <span class="h1 fw-bold text-white">K +</span>
-                                                </div>
-                                                <h5 class="text-white mb-0">Happy Visitors</h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="counter-item bg-dark rounded text-center p-4 h-100">
-                                                <div class="counter-item-icon mx-auto mb-3">
-                                                    <i class="fas fa-certificate fa-3x text-white"></i>
-                                                </div>
-                                                <div class="counter-counting mb-3">
-                                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
-                                                    <span class="h1 fw-bold text-white"> +</span>
-                                                </div>
-                                                <h5 class="text-white mb-0">Events
-
-                                                </h5>
-                                            </div>
-                                        </div>
-
-                                    </div>
+                </div>
+            <br>
+            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="position-relative rounded">
+                    <div class="rounded" style="margin-top: 40px;">
+                        <div class="row g-0">
+                            <div class="col-lg-12">
+                                <div class="rounded mb-4">
+                                    <img src="img/ph4.jpeg" class="img-fluid rounded w-100" alt="">
                                 </div>
+                                <div class="row gx-4 gy-0">
+                                    <div class="col-6">
+                                        <div class="counter-item bg-primary rounded text-center p-4 h-100">
+                                            <div class="counter-item-icon mx-auto mb-3">
+                                                <i class="fas fa-thumbs-up fa-3x text-white"></i>
+                                            </div>
+                                            <div class="counter-counting mb-3">
+                                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">150</span>
+                                                <span class="h1 fw-bold text-white">K +</span>
+                                            </div>
+                                            <h5 class="text-white mb-0">Happy Visitors</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="counter-item bg-dark rounded text-center p-4 h-100">
+                                            <div class="counter-item-icon mx-auto mb-3">
+                                                <i class="fas fa-certificate fa-3x text-white"></i>
+                                            </div>
+                                            <div class="counter-counting mb-3">
+                                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">122</span>
+                                                <span class="h1 fw-bold text-white"> +</span>
+                                            </div>
+                                            <h5 class="text-white mb-0">Events
 
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
 
                         </div>
-                        <!-- Experience Badge -->
-                        <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
-                            style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffcc00, #6699ff);">
-                            <h3 class="mb-0 text-white"> KiteBeach Park</h3>
-                        </div>
+
+                    </div>
+                    <!-- Experience Badge -->
+                    <div class="rounded bg-primary p-4 position-absolute d-flex justify-content-center"
+                        style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #ffcc00, #6699ff);">
+                        <h3 class="mb-0 text-white"> KiteBeach Park</h3>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- About End -->
 
@@ -1051,6 +999,77 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <div class="modal fade" id="bookingModal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content booking-modal">
+
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Book Your Event</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="{{ route('booking.store') }}" method="POST">
+                            @csrf
+
+                            <div class="row g-4">
+
+                                <div class="col-12">
+                                    <input type="text" name="name"
+                                        class="form-control custom-input"
+                                        placeholder="Your Name" required>
+                                </div>
+
+                                <div class="col-6">
+                                    <input type="email" name="email"
+                                        class="form-control custom-input"
+                                        placeholder="Your Email" required>
+                                </div>
+
+                                <div class="col-6">
+                                    <input type="tel" name="phone"
+                                        class="form-control custom-input"
+                                        placeholder="Phone" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <select name="package"
+                                        class="form-select custom-input" required>
+                                        <option value="">Select Package</option>
+                                        <option value="Bamboo Hut Celebration">Bamboo Hut Celebration</option>
+                                        <option value="Open stage Celebration">Open Stage Celebration</option>
+                                        <option value="Beach Side Grand Celebration">Beach Side Grand Celebration</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-6">
+                                    <input type="date" name="event_date"
+                                        class="form-control custom-input" required>
+                                </div>
+
+                                <div class="col-6">
+                                    <input type="number" name="guests"
+                                        class="form-control custom-input"
+                                        placeholder="Guests" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit"
+                                        class="btn btn-primary w-100 py-2">
+                                        Book Now
+                                    </button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

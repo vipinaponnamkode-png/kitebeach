@@ -16,6 +16,8 @@
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -44,7 +46,7 @@
     <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a href="" class="navbar-brand p-0">
-                <h1 class="display-6 text-dark"></i>KiteBeach<img src="img/logo.png" alt="Logo" class="me-3" style="width: 70px; height: 150px;"></h1>
+                 <img src="img/logofinal-remove.png" alt="KiteBeach Logo" class="logo" style="width: 150px; height: 150px;">
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -52,9 +54,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                    <a href="{{ route('home') }}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                    <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                    <a href="{{ route('service') }}" class="nav-item nav-link active">Service</a>
                     <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
                     <a href="{{ route('attraction')}}" class="nav-item nav-link">Attractions</a>
                     <!-- <div class="nav-item dropdown">
@@ -70,12 +72,11 @@
                             </div>
                         </div> -->
                     <a href="{{ route('contact.index')}}" class="nav-item nav-link">Contact</a>
-                </div>
                 <div class="team-icon d-none d-xl-flex justify-content-center me-3">
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.facebook.com/kitebeachpark/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.threads.com/@kitebeachpark"><i class="fa-brands fa-threads"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.instagram.com/kitebeachpark/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-light rounded-circle mx-1" href="https://www.youtube.com/@kitebeachpark/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <a href="#" class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0">Get Started</a>
             </div>
